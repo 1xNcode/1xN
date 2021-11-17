@@ -81,7 +81,7 @@ python imagenet.py \
 
 <div align=center><img src="rates.jpg" height = "60%" width = "70%"/></div>
 
-More links for pruned models under different pruning rates and their training logs can be found in [MobileNets](https://drive.google.com/drive/folders/1Exbxsf-VlJUmaLxxeJ0EmP0ymkpZK5mQ?usp=sharing) and [ResNet-50](https://drive.google.com/drive/folders/1TV2kX5Xh-OQfk_rIgTjEdUPzKMrlGeN-?usp=sharing).
+More links for pruned models under different pruning rates and their training logs can be found in [MobileNet-V2](https://drive.google.com/drive/folders/1Exbxsf-VlJUmaLxxeJ0EmP0ymkpZK5mQ?usp=sharing) and [ResNet-50](https://drive.google.com/drive/folders/1TV2kX5Xh-OQfk_rIgTjEdUPzKMrlGeN-?usp=sharing).
 
 
 ### Evaluate our models
