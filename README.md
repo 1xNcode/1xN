@@ -81,7 +81,7 @@ python imagenet.py \
 
 <div align=center><img src="rates.jpg" height = "60%" width = "70%"/></div>
 
-More links for pruned models under different pruning rates and their training logs can be found [here](https://drive.google.com/drive/folders/1Exbxsf-VlJUmaLxxeJ0EmP0ymkpZK5mQ?usp=sharing).
+More links for pruned models under different pruning rates and their training logs can be found in [MobileNets](https://drive.google.com/drive/folders/1Exbxsf-VlJUmaLxxeJ0EmP0ymkpZK5mQ?usp=sharing) and [ResNet-50](https://drive.google.com/drive/folders/1TV2kX5Xh-OQfk_rIgTjEdUPzKMrlGeN-?usp=sharing).
 
 
 ### Evaluate our models
@@ -164,23 +164,6 @@ optional arguments:
 
 <div align=center><img src="sparse.jpg" height = "60%" width = "70%"/></div>
 
-### Performance and latency comparison
-
-<div align=center><img src="acceleration.jpg" height = "60%" width = "70%"/></div>
-
-Our sparse convolution implementation has been released to [TVM](https://github.com/apache/tvm) community.
-
-To verify the performance of our pruned models, convert onnx model and run the following command:
-
-```
-python model_tune.py \
---onnx_path [ONNX_MODEL_PATH] \
---bsr 4 \
---bsc 1 \
---sparsity 0.5
-```
-
-The detail tuning setting is referred to [TVM](https://tvm.apache.org/docs/tutorials/auto_scheduler/tune_network_arm.html).
 
 
 
