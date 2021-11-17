@@ -1,6 +1,5 @@
-# 1&times;N Block Pattern for Network Sparsity 
-
-This is Pytorch re-implementation of "1×N Block Pattern for Network Sparsity". 
+# 1&times;N Pattern for Pruning Convolutional Neural Networks
+This is Pytorch re-implementation of "Pattern for Pruning Convolutional Neural Networks". 
 
 
 ## 1) 1&times;N Block Sparsity
